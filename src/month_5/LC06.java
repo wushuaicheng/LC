@@ -1,7 +1,7 @@
 package month_5;
 //1156. 单字符重复子串的最大长度
 public class LC06 {
-    public int maxRepOpt1(String text) {
+    /*public int maxRepOpt1(String text) {
 
         char[] chars = text.toCharArray();
         char[] charCount = new char[26];
@@ -18,5 +18,5 @@ public class LC06 {
             firstChar=chars[i];
 
         }
-    }
+    }*/
 }

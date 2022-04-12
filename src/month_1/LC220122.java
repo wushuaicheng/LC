@@ -1,7 +1,6 @@
 package month_1;
 
-import jdk.swing.interop.SwingInterOpUtils;
-import org.w3c.dom.ls.LSOutput;
+
 
 public class LC220122 {
     public static void main(String[] args) {
