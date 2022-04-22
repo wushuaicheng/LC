@@ -46,7 +46,7 @@ public class LC17 {
         hashMap.put(n, list);
         return list;
     }*/
-    public static Map<Integer,List<TreeNode>> hashmap = null;
+    /*public static Map<Integer,List<TreeNode>> hashmap = null;
     public List<TreeNode> allPossibleFBT(int n) {
         hashmap=new HashMap<>();
         return build(n);
@@ -84,5 +84,5 @@ public class LC17 {
         hashmap.put(n,list);
         return list;
     }
-
+*/
 }
