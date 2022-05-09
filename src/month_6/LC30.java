@@ -1,4 +1,7 @@
 package month_6;
+
+import java.util.Arrays;
+
 //338. 比特位计数
 public class LC30 {
     public int[] countBits1(int n) {
@@ -19,7 +22,7 @@ public class LC30 {
         return res;
     }
 
-    public int[] countBits(int n) {
+    public static int[] countBits(int n) {
         int[] ints = new int[n + 1];
         int x = 0;
 
@@ -27,9 +30,14 @@ public class LC30 {
             if((i&(i-1))==0){
                 x = i;
             }
+            System.out.println(x);
             ints[i]=ints[i-x]+1;
         }
         return ints;
+    }
 
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(countBits(6)));
     }
 }
+
